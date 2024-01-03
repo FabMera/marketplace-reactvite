@@ -1,8 +1,15 @@
-# React + Vite
+Proyecto Marketplace fullstack migrando desde Create React App (CRA) a Create Vite.
+1.- npm create vite@latest ,npm install, npm run dev
+2.- Dependencias:
+Axios,
+SweetAlert 2.
+React Router,
+Bootstrap,
+React hook Form,
+React Slick,
+React Icons.
+En construccion..
+-Sistema de login con springboot 3 y spring security 6 para validacion de usuarios y base de datos Postgresql.
+-Posibilidad de loguearse con Google o Github utilizando AUTH0-
+La aplicacion permite logearse,registrarse y la opcion de vender y comprar productos,incorpora un carrito de compras,sistemas de busqueda y ordenamientos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
